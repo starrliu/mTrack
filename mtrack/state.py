@@ -1,7 +1,6 @@
 from enum import Enum
-from .utils import StatusManager, distance_bbox
+from .utils import Multi2MultiMapping, StatusManager, distance_bbox
 from bidict import bidict
-from rfmat.utils import Multi2MultiMapping
 from collections import defaultdict
 import pandas as pd
 from .data import XYWH
